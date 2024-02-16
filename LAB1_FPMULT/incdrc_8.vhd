@@ -2,6 +2,8 @@
 -- decrement for 0
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
 
 Entity incdrc_8 IS
     Port ( 
