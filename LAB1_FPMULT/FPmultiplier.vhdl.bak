@@ -1,0 +1,19 @@
+--Lab1 CEG3156
+--Alexander Wilson 300219585
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY FPmultiplier IS
+	PORT(
+	i_signA, i_signB, i_GClock, i_GReset: IN STD_logic;
+	i_MantissaA, i_MantissaB: IN STD_logic_VECTOR(7 downto 0);
+	i_ExponentA, i_ExponentB: IN STD_logic_VECTOR(6 downto 0);
+	o_Signout, o_overflow: OUT STD_logic;
+	o_MantissaOut: OUT STD_logic_VECTOR(7 downto 0);
+	o_ExponentOut : OUT STD_logic_VECTOR(6 downto 0);
+	);
+		
+END FPmultiplier;
+
+Architecture rtl OF multiplier IS
