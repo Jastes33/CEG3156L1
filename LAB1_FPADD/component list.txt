@@ -1,0 +1,18 @@
+6x 8bit reg -- done and working 
+8bit exponent reg --done working 
+8bit 2to1 mux -- done working 
+8 bit shift reg both left and right--done working
+small ALU (subtraction) -- done and working 
+
+Control adder
+full adder (CLA)    
+32bit floating point rounder 
+
+
+Control multi
+ALU multiply 
+8 bit increment or decrement ( changes the exponent value)  bi directional counter
+
+
+
+
